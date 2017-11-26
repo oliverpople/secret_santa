@@ -4,7 +4,7 @@
   "description": "```` As a user So I can be part of secret santa I want to add my name to the list",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-node spec"  
+    "test": "jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
-    "minimatch": "^3.0.2"
+    "minimatch": "^3.0.4",
+    "zombie": "^5.0.7"
   }
 }
