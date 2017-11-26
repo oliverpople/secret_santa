@@ -1,9 +1,15 @@
 var express = require('express');
+var exphbs = require('express-handlebars');
+
 var app = express();
+
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
 var exports = module.exports = {};
 
 app.get('/', function(req, res) {
-  res.send('Hello World');
+  res.render('../views/partials/home.handlebars');
 });
 var server = app.listen(3000, function(){
   console.log('Magic is happening on port 3000');
