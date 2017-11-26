@@ -1,0 +1,27 @@
+{
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "```` As a user So I can be part of secret santa I want to add my name to the list",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverpople/secret_santa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverpople/secret_santa/issues"
+  },
+  "homepage": "https://github.com/oliverpople/secret_santa#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "minimatch": "^3.0.2"
+  }
+}

@@ -7,7 +7,7 @@ I want to add my name to the list
 
 As a user
 So I no one knows who my secret is
-I want my secret santa to be random selected
+I want my secret santa to be randomly selected
 
 As a user
 So I don't have to give myself a gift
